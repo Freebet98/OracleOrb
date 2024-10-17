@@ -1,0 +1,18 @@
+While (button is not pushed) // Default state
+    LEDs circle at a constant rate
+    LCD remains off/black
+
+If (button is pushed) // Button press event triggers the sequence
+    Turn all LEDs off for 2 seconds // To disconnect idle circling LEDs from chasing LED sequence
+    Display magical graphics on LCD
+    Start mechanical actions (lasting approximately 20 - 30 seconds) 
+        // LEDs change from circling to sync with pivoting motion
+    Calculate the fortune during mechanical actions
+
+    When (mechanical actions finish) // After mechanical motion is complete
+        Turn off LEDs on the bottom
+        Stop magical graphics on LCD
+        Display the fortune on the LCD screen for 30 seconds
+
+    After (30 seconds of displaying the fortune)
+        Reset to default state (LEDs circle, LCD remains black)
