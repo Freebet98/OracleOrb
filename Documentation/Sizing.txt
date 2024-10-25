@@ -1,0 +1,2 @@
+Battery: 7" x 2.5" x 1.25"
+Arduino: 2.1" x 3" x .5"
